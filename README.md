@@ -3,7 +3,7 @@
 Flexbox é um modelo de layout poderoso no CSS usado para alinhar e distribuir espaço entre os itens dentro de um contêiner. Aqui vamos falar sobre três propriedades importantes:
 
 ---
-
+<hr>
 ## 🔹 `justify-content`
 
 Controla o **alinhamento horizontal** dos itens dentro de um contêiner flexível (no eixo principal, que por padrão é horizontal).
@@ -16,12 +16,12 @@ Controla o **alinhamento horizontal** dos itens dentro de um contêiner flexíve
 - `space-around` → distribui com espaçamento ao redor dos itens
 - `space-evenly` → distribui com espaçamento igual entre e ao redor dos itens
 
-```css
+
 .container {
   display: flex;
   justify-content: center;
 }
-<hr>
+
 Controla o alinhamento vertical dos itens dentro do contêiner (no eixo transversal).
 
 Valores mais usados:
@@ -39,6 +39,7 @@ baseline → alinha com base na linha de base do texto.<br>
   align-items: center;
 }
 <hr>
+
 🔹 align-self
 Permite que um item individual tenha um alinhamento diferente do align-items aplicado no contêiner.
 
