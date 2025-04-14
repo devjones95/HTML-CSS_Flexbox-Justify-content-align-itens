@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.h1align {
+    margin-top: 150px;
+}
+
+h3 {
+    color: white;
+    margin-top: 200px;
+}
+
+div {
+    color: white;
+}
+
+.flexbox {
+    height: 250px;
+    border: 3px solid red;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.flexbox div {
+    border: 2px solid orange;
+    width: 150px;
+    margin: 15px;
+}
+
+.flex-container1 {
+    flex-flow: row wrap; /*Atalho para flex-directon e flex-wrap*/
+}
+
+.flex-container2 {
+    justify-content: flex-start;
+}
+
+.flex-container2 div {
+    width: 30px;
+}
+
+.flex-container3 {
+    justify-content: flex-end;
+}
+
+.flex-container3 div {
+    width: 30px;
+}
+
+.flex-container4 {
+    justify-content: center;
+}
+
+.flex-container4 div {
+    width: 30px;
+}
+
+.flex-container5 {
+    justify-content: space-around;
+}
+
+.flex-container5 div {
+    width: 30px;
+}
+
+.flex-container6 {
+    justify-content: space-between;
+}
+
+.flex-container6 div {
+    width: 30px;
+}
+
+.flex-container7 {
+    justify-content: space-evenly;
+}
+
+.flex-container7 div {
+    width: 30px;
+}
+
+.flex-container8 {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-container8 div {
+    width: 30px;
+}
+
+.flex-container9 {
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.flex-container9 div {
+    width: 30px;
+}
+
+.flex-container10 {
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.flex-container10 div {
+    width: 30px;
+}
+
+
