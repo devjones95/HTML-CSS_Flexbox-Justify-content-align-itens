@@ -4,7 +4,7 @@ Flexbox é um modelo de layout poderoso no CSS usado para alinhar e distribuir e
 
 ---
 <hr>
- ##🔹 `justify-content`
+##🔹 `justify-content`
 
 Controla o **alinhamento horizontal** dos itens dentro de um contêiner flexível (no eixo principal, que por padrão é horizontal).
 
@@ -39,8 +39,8 @@ baseline → alinha com base na linha de base do texto.<br>
   align-items: center;
 }
 <hr>
-
 ##🔹 align-self 
+
 Permite que um item individual tenha um alinhamento diferente do align-items aplicado no contêiner.
 
 Exemplo:<br>
